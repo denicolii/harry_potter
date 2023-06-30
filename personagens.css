@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body, html {
+    margin: 0;
+    font-size: 15px;
+    color: #777;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    header{
+        display: flex;
+    }
+    
+    img{
+        width: 82px;
+        height: 82px;
+        margin-left: 45px;
+    }
+    
+    .nav{
+        padding: 15px;
+        margin-left:780px;
+    }
+    
+    .nav ul li {
+    
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .nav ul li a{
+       color: #c2bd9a;
+       font-family: 'Merriweather', serif;
+       font-weight: 700;
+    }
+    
+    .nav ul li a:hover{
+        color:#6b6956 ;
+    }
+
+
+    .conteudo {
+        color: #777;
+        background: #fff;
+        text-align: justify;
+        padding: 50px 80px;
+        
+    }
+    
+    h3{
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: #111;
+        text-align: center;
+    }
+    
+    p {
+        margin-bottom: 20px;
+    }
+    
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+        position: relative;
+        height: 100%;
+        opacity: 0.7;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+    }
+    
+    .caixa1 {
+        background-image: url(./img/background.png);
+    }
+    
+
+    .caixa2{
+        background-image: url(./img/harry.png);
+    }
+    
+    .caixa3 {
+        background-image: url(./img/hermione.png);
+    }
+    
+    .caixa4 {
+        background-image: url(./img/ron.png);
+    }
+
+    .caixa5 {
+        background-image: url(./img/draco.png);
+    }
+
+    .caixa6 {
+        background-image: url(./img/valdemort.png);
+    }
+    
+    .conteudo-titulo {
+        position: absolute;
+        left: 0;
+        top: 45%;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .conteudo-titulo span.titulo {
+        background-color: #111;
+        padding: 15px;
+        font-size: 25px;
+        letter-spacing: 5px;
+        color: #fff;
+    }
